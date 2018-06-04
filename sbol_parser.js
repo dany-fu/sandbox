@@ -9,9 +9,13 @@ var max = 3;
 fs.readFile(testfile, function(err, data) {
   parser.parseString(data, function (err, result) {
     componentDefinition = result['rdf:RDF']['sbol:ComponentDefinition'];
-    console.log(componentDefinition);
+    //console.log(componentDefinition);
     componentDefinition.forEach(function(component){
-      console.log(component);
+      if(component['sbol:sequenceAnnotation']){
+        component['sbol:sequenceAnnotation'].forEach(function(seq){
+          console.log(seq);
+        });
+      }
     });
   });
 });
