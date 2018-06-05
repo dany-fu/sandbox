@@ -1,0 +1,125 @@
+{
+  "version": 1,
+  "components": [
+    {
+      "segments": [
+        {
+          "name": "Pro",
+          "sequence": [
+            {
+              "strand": "positive",
+              "type": "promoter",
+              "id": "http://www.dummy.org/Pro/1",
+              "name": "Pro",
+              "uri": "http://www.dummy.org/Pro/1",
+              "tooltip": "Component\nIdentifier: Pro\nRole: promoter\n"
+            }
+          ],
+          "topologies": []
+        },
+        {
+          "name": "Ter",
+          "sequence": [
+            {
+              "strand": "positive",
+              "type": "terminator",
+              "id": "http://www.dummy.org/Ter/1",
+              "name": "Ter",
+              "uri": "http://www.dummy.org/Ter/1",
+              "tooltip": "Component\nIdentifier: Ter\nRole: terminator\n"
+            }
+          ],
+          "topologies": []
+        },
+        {
+          "name": "CDS",
+          "sequence": [
+            {
+              "strand": "positive",
+              "type": "cds",
+              "id": "http://www.dummy.org/CDS/1",
+              "name": "CDS",
+              "uri": "http://www.dummy.org/CDS/1",
+              "tooltip": "Component\nIdentifier: CDS\nRole: CDS\n"
+            }
+          ],
+          "topologies": []
+        },
+        {
+          "name": "Gen",
+          "sequence": [
+            {
+              "strand": "positive",
+              "type": "engineered-region",
+              "id": "http://www.dummy.org/Gen/1",
+              "name": "Gen",
+              "uri": "http://www.dummy.org/Gen/1",
+              "tooltip": "Component\nIdentifier: Gen\nRole: engineered_region\n"
+            }
+          ],
+          "topologies": []
+        },
+        {
+          "name": "RBS",
+          "sequence": [
+            {
+              "strand": "positive",
+              "type": "res",
+              "id": "http://www.dummy.org/RBS/1",
+              "name": "RBS",
+              "uri": "http://www.dummy.org/RBS/1",
+              "tooltip": "Component\nIdentifier: RBS\nRole: ribosome_entry_site\n"
+            }
+          ],
+          "topologies": []
+        },
+        {
+          "name": "FiveParts",
+          "sequence": [
+            {
+              "strand": "positive",
+              "type": "engineered-region",
+              "id": "http://www.dummy.org/FiveParts/FiveParts_SequenceAnnotation/1",
+              "name": "Gen",
+              "uri": "http://www.dummy.org/Gen/1",
+              "tooltip": "Component\nIdentifier: Gen\nRole: engineered_region\nOrientation: inline\n"
+            },
+            {
+              "strand": "positive",
+              "type": "promoter",
+              "id": "http://www.dummy.org/FiveParts/FiveParts_SequenceAnnotation1/1",
+              "name": "Pro",
+              "uri": "http://www.dummy.org/Pro/1",
+              "tooltip": "Component\nIdentifier: Pro\nRole: promoter\nOrientation: inline\n"
+            },
+            {
+              "strand": "positive",
+              "type": "res",
+              "id": "http://www.dummy.org/FiveParts/FiveParts_SequenceAnnotation2/1",
+              "name": "RBS",
+              "uri": "http://www.dummy.org/RBS/1",
+              "tooltip": "Component\nIdentifier: RBS\nRole: ribosome_entry_site\nOrientation: inline\n"
+            },
+            {
+              "strand": "positive",
+              "type": "cds",
+              "id": "http://www.dummy.org/FiveParts/FiveParts_SequenceAnnotation3/1",
+              "name": "CDS",
+              "uri": "http://www.dummy.org/CDS/1",
+              "tooltip": "Component\nIdentifier: CDS\nRole: CDS\nOrientation: inline\n"
+            },
+            {
+              "strand": "positive",
+              "type": "terminator",
+              "id": "http://www.dummy.org/FiveParts/FiveParts_SequenceAnnotation4/1",
+              "name": "Ter",
+              "uri": "http://www.dummy.org/Ter/1",
+              "tooltip": "Component\nIdentifier: Ter\nRole: terminator\nOrientation: inline\n"
+            }
+          ],
+          "topologies": []
+        }
+      ]
+    }
+  ]
+}
