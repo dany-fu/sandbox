@@ -1,0 +1,576 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sbol="http://sbols.org/v2#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#">
+<sbol:ComponentDefinition rdf:about="http://sbol-composite.com/Pro/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/Pro"/>
+<sbol:displayId>Pro</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+<sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+</sbol:ComponentDefinition>
+<sbol:ComponentDefinition rdf:about="http://sbol-composite.com/PS/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/PS"/>
+<sbol:displayId>PS</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+<sbol:role rdf:resource="http://identifiers.org/so/SO:0001956"/>
+</sbol:ComponentDefinition>
+<sbol:ComponentDefinition rdf:about="http://sbol-composite.com/RBS/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/RBS"/>
+<sbol:displayId>RBS</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+<sbol:role rdf:resource="http://identifiers.org/so/SO:0000139"/>
+</sbol:ComponentDefinition>
+<sbol:ComponentDefinition rdf:about="http://sbol-composite.com/Scar/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/Scar"/>
+<sbol:displayId>Scar</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+<sbol:role rdf:resource="http://identifiers.org/so/SO:0001953"/>
+</sbol:ComponentDefinition>
+<sbol:ComponentDefinition rdf:about="http://sbol-composite.com/Ter/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/Ter"/>
+<sbol:displayId>Ter</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+<sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+</sbol:ComponentDefinition>
+<sbol:ComponentDefinition rdf:about="http://sbol-composite.com/RS/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/RS"/>
+<sbol:displayId>RS</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+<sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+</sbol:ComponentDefinition>
+<sbol:ComponentDefinition rdf:about="http://sbol-composite.com/BRS/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/BRS"/>
+<sbol:displayId>BRS</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+<sbol:role rdf:resource="http://identifiers.org/so/SO:0001691"/>
+</sbol:ComponentDefinition>
+<sbol:ComponentDefinition rdf:about="http://sbol-composite.com/RSE/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/RSE"/>
+<sbol:displayId>RSE</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+<sbol:role rdf:resource="http://identifiers.org/so/SO:0001957"/>
+</sbol:ComponentDefinition>
+<sbol:ComponentDefinition rdf:about="http://sbol-composite.com/Ins/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/Ins"/>
+<sbol:displayId>Ins</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+<sbol:role rdf:resource="http://identifiers.org/so/SO:0000627"/>
+</sbol:ComponentDefinition>
+<sbol:ComponentDefinition rdf:about="http://sbol-composite.com/PSE1/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/PSE1"/>
+<sbol:displayId>PSE1</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+<sbol:role rdf:resource="http://identifiers.org/so/SO:0001955"/>
+</sbol:ComponentDefinition>
+<sbol:ComponentDefinition rdf:about="http://sbol-composite.com/NewDesign/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/NewDesign"/>
+<sbol:displayId>NewDesign</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+<sbol:component>
+<sbol:Component rdf:about="http://sbol-composite.com/NewDesign/RBSComponent/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/NewDesign/RBSComponent"/>
+<sbol:displayId>RBSComponent</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:access rdf:resource="http://sbols.org/v2#public"/>
+<sbol:definition rdf:resource="http://sbol-composite.com/RBS/1"/>
+</sbol:Component>
+</sbol:component>
+<sbol:component>
+<sbol:Component rdf:about="http://sbol-composite.com/NewDesign/RSComponent/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/NewDesign/RSComponent"/>
+<sbol:displayId>RSComponent</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:access rdf:resource="http://sbols.org/v2#public"/>
+<sbol:definition rdf:resource="http://sbol-composite.com/RS/1"/>
+</sbol:Component>
+</sbol:component>
+<sbol:component>
+<sbol:Component rdf:about="http://sbol-composite.com/NewDesign/InsComponent/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/NewDesign/InsComponent"/>
+<sbol:displayId>InsComponent</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:access rdf:resource="http://sbols.org/v2#public"/>
+<sbol:definition rdf:resource="http://sbol-composite.com/Ins/1"/>
+</sbol:Component>
+</sbol:component>
+<sbol:component>
+<sbol:Component rdf:about="http://sbol-composite.com/NewDesign/BRSComponent/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/NewDesign/BRSComponent"/>
+<sbol:displayId>BRSComponent</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:access rdf:resource="http://sbols.org/v2#public"/>
+<sbol:definition rdf:resource="http://sbol-composite.com/BRS/1"/>
+</sbol:Component>
+</sbol:component>
+<sbol:component>
+<sbol:Component rdf:about="http://sbol-composite.com/NewDesign/RSEComponent/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/NewDesign/RSEComponent"/>
+<sbol:displayId>RSEComponent</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:access rdf:resource="http://sbols.org/v2#public"/>
+<sbol:definition rdf:resource="http://sbol-composite.com/RSE/1"/>
+</sbol:Component>
+</sbol:component>
+<sbol:component>
+<sbol:Component rdf:about="http://sbol-composite.com/NewDesign/PSEComponent/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/NewDesign/PSEComponent"/>
+<sbol:displayId>PSEComponent</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:access rdf:resource="http://sbols.org/v2#public"/>
+<sbol:definition rdf:resource="http://sbol-composite.com/PSE/1"/>
+</sbol:Component>
+</sbol:component>
+<sbol:component>
+<sbol:Component rdf:about="http://sbol-composite.com/NewDesign/CDSComponent/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/NewDesign/CDSComponent"/>
+<sbol:displayId>CDSComponent</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:access rdf:resource="http://sbols.org/v2#public"/>
+<sbol:definition rdf:resource="http://sbol-composite.com/CDS/1"/>
+</sbol:Component>
+</sbol:component>
+<sbol:component>
+<sbol:Component rdf:about="http://sbol-composite.com/NewDesign/ProComponent/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/NewDesign/ProComponent"/>
+<sbol:displayId>ProComponent</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:access rdf:resource="http://sbols.org/v2#public"/>
+<sbol:definition rdf:resource="http://sbol-composite.com/Pro/1"/>
+</sbol:Component>
+</sbol:component>
+<sbol:component>
+<sbol:Component rdf:about="http://sbol-composite.com/NewDesign/TerComponent/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/NewDesign/TerComponent"/>
+<sbol:displayId>TerComponent</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:access rdf:resource="http://sbols.org/v2#public"/>
+<sbol:definition rdf:resource="http://sbol-composite.com/Ter/1"/>
+</sbol:Component>
+</sbol:component>
+<sbol:component>
+<sbol:Component rdf:about="http://sbol-composite.com/NewDesign/PSComponent/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/NewDesign/PSComponent"/>
+<sbol:displayId>PSComponent</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:access rdf:resource="http://sbols.org/v2#public"/>
+<sbol:definition rdf:resource="http://sbol-composite.com/PS/1"/>
+</sbol:Component>
+</sbol:component>
+<sbol:sequenceAnnotation>
+<sbol:SequenceAnnotation rdf:about="http://sbol-composite.com/NewDesign/NewDesignSequenceAnnotation1/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/NewDesign/NewDesignSequenceAnnotation1"/>
+<sbol:displayId>NewDesignSequenceAnnotation1</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:location>
+<sbol:GenericLocation rdf:about="http://sbol-composite.com/NewDesign/NewDesignSequenceAnnotation1/GenericLocation/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/NewDesign/NewDesignSequenceAnnotation1/GenericLocation"/>
+<sbol:displayId>GenericLocation</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:Orientation rdf:resource="http://sbols.org/v2#inline"/>
+</sbol:GenericLocation>
+</sbol:location>
+<sbol:component rdf:resource="http://sbol-composite.com/NewDesign/RBSComponent/1"/>
+</sbol:SequenceAnnotation>
+</sbol:sequenceAnnotation>
+<sbol:sequenceAnnotation>
+<sbol:SequenceAnnotation rdf:about="http://sbol-composite.com/NewDesign/NewDesignSequenceAnnotation/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/NewDesign/NewDesignSequenceAnnotation"/>
+<sbol:displayId>NewDesignSequenceAnnotation</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:location>
+<sbol:GenericLocation rdf:about="http://sbol-composite.com/NewDesign/NewDesignSequenceAnnotation/GenericLocation/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/NewDesign/NewDesignSequenceAnnotation/GenericLocation"/>
+<sbol:displayId>GenericLocation</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:Orientation rdf:resource="http://sbols.org/v2#inline"/>
+</sbol:GenericLocation>
+</sbol:location>
+<sbol:component rdf:resource="http://sbol-composite.com/NewDesign/ProComponent/1"/>
+</sbol:SequenceAnnotation>
+</sbol:sequenceAnnotation>
+<sbol:sequenceAnnotation>
+<sbol:SequenceAnnotation rdf:about="http://sbol-composite.com/NewDesign/NewDesignSequenceAnnotation7/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/NewDesign/NewDesignSequenceAnnotation7"/>
+<sbol:displayId>NewDesignSequenceAnnotation7</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:location>
+<sbol:GenericLocation rdf:about="http://sbol-composite.com/NewDesign/NewDesignSequenceAnnotation7/GenericLocation/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/NewDesign/NewDesignSequenceAnnotation7/GenericLocation"/>
+<sbol:displayId>GenericLocation</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:Orientation rdf:resource="http://sbols.org/v2#inline"/>
+</sbol:GenericLocation>
+</sbol:location>
+<sbol:component rdf:resource="http://sbol-composite.com/NewDesign/RSComponent/1"/>
+</sbol:SequenceAnnotation>
+</sbol:sequenceAnnotation>
+<sbol:sequenceAnnotation>
+<sbol:SequenceAnnotation rdf:about="http://sbol-composite.com/NewDesign/NewDesignSequenceAnnotation2/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/NewDesign/NewDesignSequenceAnnotation2"/>
+<sbol:displayId>NewDesignSequenceAnnotation2</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:location>
+<sbol:GenericLocation rdf:about="http://sbol-composite.com/NewDesign/NewDesignSequenceAnnotation2/GenericLocation/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/NewDesign/NewDesignSequenceAnnotation2/GenericLocation"/>
+<sbol:displayId>GenericLocation</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:Orientation rdf:resource="http://sbols.org/v2#inline"/>
+</sbol:GenericLocation>
+</sbol:location>
+<sbol:component rdf:resource="http://sbol-composite.com/NewDesign/CDSComponent/1"/>
+</sbol:SequenceAnnotation>
+</sbol:sequenceAnnotation>
+<sbol:sequenceAnnotation>
+<sbol:SequenceAnnotation rdf:about="http://sbol-composite.com/NewDesign/NewDesignSequenceAnnotation4/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/NewDesign/NewDesignSequenceAnnotation4"/>
+<sbol:displayId>NewDesignSequenceAnnotation4</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:location>
+<sbol:GenericLocation rdf:about="http://sbol-composite.com/NewDesign/NewDesignSequenceAnnotation4/GenericLocation/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/NewDesign/NewDesignSequenceAnnotation4/GenericLocation"/>
+<sbol:displayId>GenericLocation</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:Orientation rdf:resource="http://sbols.org/v2#inline"/>
+</sbol:GenericLocation>
+</sbol:location>
+<sbol:component rdf:resource="http://sbol-composite.com/NewDesign/InsComponent/1"/>
+</sbol:SequenceAnnotation>
+</sbol:sequenceAnnotation>
+<sbol:sequenceAnnotation>
+<sbol:SequenceAnnotation rdf:about="http://sbol-composite.com/NewDesign/NewDesignSequenceAnnotation8/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/NewDesign/NewDesignSequenceAnnotation8"/>
+<sbol:displayId>NewDesignSequenceAnnotation8</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:location>
+<sbol:GenericLocation rdf:about="http://sbol-composite.com/NewDesign/NewDesignSequenceAnnotation8/GenericLocation/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/NewDesign/NewDesignSequenceAnnotation8/GenericLocation"/>
+<sbol:displayId>GenericLocation</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:Orientation rdf:resource="http://sbols.org/v2#inline"/>
+</sbol:GenericLocation>
+</sbol:location>
+<sbol:component rdf:resource="http://sbol-composite.com/NewDesign/PSComponent/1"/>
+</sbol:SequenceAnnotation>
+</sbol:sequenceAnnotation>
+<sbol:sequenceAnnotation>
+<sbol:SequenceAnnotation rdf:about="http://sbol-composite.com/NewDesign/NewDesignSequenceAnnotation9/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/NewDesign/NewDesignSequenceAnnotation9"/>
+<sbol:displayId>NewDesignSequenceAnnotation9</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:location>
+<sbol:GenericLocation rdf:about="http://sbol-composite.com/NewDesign/NewDesignSequenceAnnotation9/GenericLocation/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/NewDesign/NewDesignSequenceAnnotation9/GenericLocation"/>
+<sbol:displayId>GenericLocation</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:Orientation rdf:resource="http://sbols.org/v2#inline"/>
+</sbol:GenericLocation>
+</sbol:location>
+<sbol:component rdf:resource="http://sbol-composite.com/NewDesign/BRSComponent/1"/>
+</sbol:SequenceAnnotation>
+</sbol:sequenceAnnotation>
+<sbol:sequenceAnnotation>
+<sbol:SequenceAnnotation rdf:about="http://sbol-composite.com/NewDesign/NewDesignSequenceAnnotation6/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/NewDesign/NewDesignSequenceAnnotation6"/>
+<sbol:displayId>NewDesignSequenceAnnotation6</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:location>
+<sbol:GenericLocation rdf:about="http://sbol-composite.com/NewDesign/NewDesignSequenceAnnotation6/GenericLocation/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/NewDesign/NewDesignSequenceAnnotation6/GenericLocation"/>
+<sbol:displayId>GenericLocation</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:Orientation rdf:resource="http://sbols.org/v2#inline"/>
+</sbol:GenericLocation>
+</sbol:location>
+<sbol:component rdf:resource="http://sbol-composite.com/NewDesign/PSEComponent/1"/>
+</sbol:SequenceAnnotation>
+</sbol:sequenceAnnotation>
+<sbol:sequenceAnnotation>
+<sbol:SequenceAnnotation rdf:about="http://sbol-composite.com/NewDesign/NewDesignSequenceAnnotation5/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/NewDesign/NewDesignSequenceAnnotation5"/>
+<sbol:displayId>NewDesignSequenceAnnotation5</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:location>
+<sbol:GenericLocation rdf:about="http://sbol-composite.com/NewDesign/NewDesignSequenceAnnotation5/GenericLocation/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/NewDesign/NewDesignSequenceAnnotation5/GenericLocation"/>
+<sbol:displayId>GenericLocation</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:Orientation rdf:resource="http://sbols.org/v2#inline"/>
+</sbol:GenericLocation>
+</sbol:location>
+<sbol:component rdf:resource="http://sbol-composite.com/NewDesign/RSEComponent/1"/>
+</sbol:SequenceAnnotation>
+</sbol:sequenceAnnotation>
+<sbol:sequenceAnnotation>
+<sbol:SequenceAnnotation rdf:about="http://sbol-composite.com/NewDesign/NewDesignSequenceAnnotation3/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/NewDesign/NewDesignSequenceAnnotation3"/>
+<sbol:displayId>NewDesignSequenceAnnotation3</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:location>
+<sbol:GenericLocation rdf:about="http://sbol-composite.com/NewDesign/NewDesignSequenceAnnotation3/GenericLocation/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/NewDesign/NewDesignSequenceAnnotation3/GenericLocation"/>
+<sbol:displayId>GenericLocation</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:Orientation rdf:resource="http://sbols.org/v2#inline"/>
+</sbol:GenericLocation>
+</sbol:location>
+<sbol:component rdf:resource="http://sbol-composite.com/NewDesign/TerComponent/1"/>
+</sbol:SequenceAnnotation>
+</sbol:sequenceAnnotation>
+<sbol:sequenceConstraint>
+<sbol:SequenceConstraint rdf:about="http://sbol-composite.com/NewDesign/SequenceConstraint1/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/NewDesign/SequenceConstraint1"/>
+<sbol:displayId>SequenceConstraint1</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+<sbol:subject rdf:resource="http://sbol-composite.com/NewDesign/RBSComponent/1"/>
+<sbol:object rdf:resource="http://sbol-composite.com/NewDesign/CDSComponent/1"/>
+</sbol:SequenceConstraint>
+</sbol:sequenceConstraint>
+<sbol:sequenceConstraint>
+<sbol:SequenceConstraint rdf:about="http://sbol-composite.com/NewDesign/SequenceConstraint6/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/NewDesign/SequenceConstraint6"/>
+<sbol:displayId>SequenceConstraint6</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+<sbol:subject rdf:resource="http://sbol-composite.com/NewDesign/PSEComponent/1"/>
+<sbol:object rdf:resource="http://sbol-composite.com/NewDesign/RSComponent/1"/>
+</sbol:SequenceConstraint>
+</sbol:sequenceConstraint>
+<sbol:sequenceConstraint>
+<sbol:SequenceConstraint rdf:about="http://sbol-composite.com/NewDesign/SequenceConstraint3/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/NewDesign/SequenceConstraint3"/>
+<sbol:displayId>SequenceConstraint3</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+<sbol:subject rdf:resource="http://sbol-composite.com/NewDesign/TerComponent/1"/>
+<sbol:object rdf:resource="http://sbol-composite.com/NewDesign/InsComponent/1"/>
+</sbol:SequenceConstraint>
+</sbol:sequenceConstraint>
+<sbol:sequenceConstraint>
+<sbol:SequenceConstraint rdf:about="http://sbol-composite.com/NewDesign/SequenceConstraint5/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/NewDesign/SequenceConstraint5"/>
+<sbol:displayId>SequenceConstraint5</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+<sbol:subject rdf:resource="http://sbol-composite.com/NewDesign/RSEComponent/1"/>
+<sbol:object rdf:resource="http://sbol-composite.com/NewDesign/PSEComponent/1"/>
+</sbol:SequenceConstraint>
+</sbol:sequenceConstraint>
+<sbol:sequenceConstraint>
+<sbol:SequenceConstraint rdf:about="http://sbol-composite.com/NewDesign/SequenceConstraint4/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/NewDesign/SequenceConstraint4"/>
+<sbol:displayId>SequenceConstraint4</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+<sbol:subject rdf:resource="http://sbol-composite.com/NewDesign/InsComponent/1"/>
+<sbol:object rdf:resource="http://sbol-composite.com/NewDesign/RSEComponent/1"/>
+</sbol:SequenceConstraint>
+</sbol:sequenceConstraint>
+<sbol:sequenceConstraint>
+<sbol:SequenceConstraint rdf:about="http://sbol-composite.com/NewDesign/SequenceConstraint8/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/NewDesign/SequenceConstraint8"/>
+<sbol:displayId>SequenceConstraint8</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+<sbol:subject rdf:resource="http://sbol-composite.com/NewDesign/PSComponent/1"/>
+<sbol:object rdf:resource="http://sbol-composite.com/NewDesign/BRSComponent/1"/>
+</sbol:SequenceConstraint>
+</sbol:sequenceConstraint>
+<sbol:sequenceConstraint>
+<sbol:SequenceConstraint rdf:about="http://sbol-composite.com/NewDesign/SequenceConstraint/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/NewDesign/SequenceConstraint"/>
+<sbol:displayId>SequenceConstraint</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+<sbol:subject rdf:resource="http://sbol-composite.com/NewDesign/ProComponent/1"/>
+<sbol:object rdf:resource="http://sbol-composite.com/NewDesign/RBSComponent/1"/>
+</sbol:SequenceConstraint>
+</sbol:sequenceConstraint>
+<sbol:sequenceConstraint>
+<sbol:SequenceConstraint rdf:about="http://sbol-composite.com/NewDesign/SequenceConstraint7/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/NewDesign/SequenceConstraint7"/>
+<sbol:displayId>SequenceConstraint7</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+<sbol:subject rdf:resource="http://sbol-composite.com/NewDesign/RSComponent/1"/>
+<sbol:object rdf:resource="http://sbol-composite.com/NewDesign/PSComponent/1"/>
+</sbol:SequenceConstraint>
+</sbol:sequenceConstraint>
+<sbol:sequenceConstraint>
+<sbol:SequenceConstraint rdf:about="http://sbol-composite.com/NewDesign/SequenceConstraint2/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/NewDesign/SequenceConstraint2"/>
+<sbol:displayId>SequenceConstraint2</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+<sbol:subject rdf:resource="http://sbol-composite.com/NewDesign/CDSComponent/1"/>
+<sbol:object rdf:resource="http://sbol-composite.com/NewDesign/TerComponent/1"/>
+</sbol:SequenceConstraint>
+</sbol:sequenceConstraint>
+</sbol:ComponentDefinition>
+<sbol:ComponentDefinition rdf:about="http://sbol-composite.com/CDS/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/CDS"/>
+<sbol:displayId>CDS</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+<sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+<sbol:component>
+<sbol:Component rdf:about="http://sbol-composite.com/CDS/ScarComponent/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/CDS/ScarComponent"/>
+<sbol:displayId>ScarComponent</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:access rdf:resource="http://sbols.org/v2#public"/>
+<sbol:definition rdf:resource="http://sbol-composite.com/Scar/1"/>
+</sbol:Component>
+</sbol:component>
+<sbol:component>
+<sbol:Component rdf:about="http://sbol-composite.com/CDS/OpComponent/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/CDS/OpComponent"/>
+<sbol:displayId>OpComponent</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:access rdf:resource="http://sbols.org/v2#public"/>
+<sbol:definition rdf:resource="http://sbol-composite.com/Op/1"/>
+</sbol:Component>
+</sbol:component>
+<sbol:component>
+<sbol:Component rdf:about="http://sbol-composite.com/CDS/PSE1Component/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/CDS/PSE1Component"/>
+<sbol:displayId>PSE1Component</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:access rdf:resource="http://sbols.org/v2#public"/>
+<sbol:definition rdf:resource="http://sbol-composite.com/PSE1/1"/>
+</sbol:Component>
+</sbol:component>
+<sbol:component>
+<sbol:Component rdf:about="http://sbol-composite.com/CDS/RSE1Component/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/CDS/RSE1Component"/>
+<sbol:displayId>RSE1Component</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:access rdf:resource="http://sbols.org/v2#public"/>
+<sbol:definition rdf:resource="http://sbol-composite.com/RSE1/1"/>
+</sbol:Component>
+</sbol:component>
+<sbol:sequenceAnnotation>
+<sbol:SequenceAnnotation rdf:about="http://sbol-composite.com/CDS/CDSSequenceAnnotation1/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/CDS/CDSSequenceAnnotation1"/>
+<sbol:displayId>CDSSequenceAnnotation1</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:location>
+<sbol:GenericLocation rdf:about="http://sbol-composite.com/CDS/CDSSequenceAnnotation1/GenericLocation/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/CDS/CDSSequenceAnnotation1/GenericLocation"/>
+<sbol:displayId>GenericLocation</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:Orientation rdf:resource="http://sbols.org/v2#inline"/>
+</sbol:GenericLocation>
+</sbol:location>
+<sbol:component rdf:resource="http://sbol-composite.com/CDS/OpComponent/1"/>
+</sbol:SequenceAnnotation>
+</sbol:sequenceAnnotation>
+<sbol:sequenceAnnotation>
+<sbol:SequenceAnnotation rdf:about="http://sbol-composite.com/CDS/CDSSequenceAnnotation/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/CDS/CDSSequenceAnnotation"/>
+<sbol:displayId>CDSSequenceAnnotation</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:location>
+<sbol:GenericLocation rdf:about="http://sbol-composite.com/CDS/CDSSequenceAnnotation/GenericLocation/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/CDS/CDSSequenceAnnotation/GenericLocation"/>
+<sbol:displayId>GenericLocation</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:Orientation rdf:resource="http://sbols.org/v2#inline"/>
+</sbol:GenericLocation>
+</sbol:location>
+<sbol:component rdf:resource="http://sbol-composite.com/CDS/ScarComponent/1"/>
+</sbol:SequenceAnnotation>
+</sbol:sequenceAnnotation>
+<sbol:sequenceAnnotation>
+<sbol:SequenceAnnotation rdf:about="http://sbol-composite.com/CDS/CDSSequenceAnnotation2/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/CDS/CDSSequenceAnnotation2"/>
+<sbol:displayId>CDSSequenceAnnotation2</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:location>
+<sbol:GenericLocation rdf:about="http://sbol-composite.com/CDS/CDSSequenceAnnotation2/GenericLocation/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/CDS/CDSSequenceAnnotation2/GenericLocation"/>
+<sbol:displayId>GenericLocation</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:Orientation rdf:resource="http://sbols.org/v2#inline"/>
+</sbol:GenericLocation>
+</sbol:location>
+<sbol:component rdf:resource="http://sbol-composite.com/CDS/RSE1Component/1"/>
+</sbol:SequenceAnnotation>
+</sbol:sequenceAnnotation>
+<sbol:sequenceAnnotation>
+<sbol:SequenceAnnotation rdf:about="http://sbol-composite.com/CDS/CDSSequenceAnnotation3/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/CDS/CDSSequenceAnnotation3"/>
+<sbol:displayId>CDSSequenceAnnotation3</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:location>
+<sbol:GenericLocation rdf:about="http://sbol-composite.com/CDS/CDSSequenceAnnotation3/GenericLocation/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/CDS/CDSSequenceAnnotation3/GenericLocation"/>
+<sbol:displayId>GenericLocation</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:Orientation rdf:resource="http://sbols.org/v2#inline"/>
+</sbol:GenericLocation>
+</sbol:location>
+<sbol:component rdf:resource="http://sbol-composite.com/CDS/PSE1Component/1"/>
+</sbol:SequenceAnnotation>
+</sbol:sequenceAnnotation>
+<sbol:sequenceConstraint>
+<sbol:SequenceConstraint rdf:about="http://sbol-composite.com/CDS/SequenceConstraint/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/CDS/SequenceConstraint"/>
+<sbol:displayId>SequenceConstraint</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+<sbol:subject rdf:resource="http://sbol-composite.com/CDS/ScarComponent/1"/>
+<sbol:object rdf:resource="http://sbol-composite.com/CDS/OpComponent/1"/>
+</sbol:SequenceConstraint>
+</sbol:sequenceConstraint>
+<sbol:sequenceConstraint>
+<sbol:SequenceConstraint rdf:about="http://sbol-composite.com/CDS/SequenceConstraint2/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/CDS/SequenceConstraint2"/>
+<sbol:displayId>SequenceConstraint2</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+<sbol:subject rdf:resource="http://sbol-composite.com/CDS/RSE1Component/1"/>
+<sbol:object rdf:resource="http://sbol-composite.com/CDS/PSE1Component/1"/>
+</sbol:SequenceConstraint>
+</sbol:sequenceConstraint>
+<sbol:sequenceConstraint>
+<sbol:SequenceConstraint rdf:about="http://sbol-composite.com/CDS/SequenceConstraint1/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/CDS/SequenceConstraint1"/>
+<sbol:displayId>SequenceConstraint1</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+<sbol:subject rdf:resource="http://sbol-composite.com/CDS/OpComponent/1"/>
+<sbol:object rdf:resource="http://sbol-composite.com/CDS/RSE1Component/1"/>
+</sbol:SequenceConstraint>
+</sbol:sequenceConstraint>
+</sbol:ComponentDefinition>
+<sbol:ComponentDefinition rdf:about="http://sbol-composite.com/PSE/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/PSE"/>
+<sbol:displayId>PSE</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+<sbol:role rdf:resource="http://identifiers.org/so/SO:0001955"/>
+</sbol:ComponentDefinition>
+<sbol:ComponentDefinition rdf:about="http://sbol-composite.com/Op/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/Op"/>
+<sbol:displayId>Op</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+<sbol:role rdf:resource="http://identifiers.org/so/SO:0000057"/>
+</sbol:ComponentDefinition>
+<sbol:ComponentDefinition rdf:about="http://sbol-composite.com/RSE1/1">
+<sbol:persistentIdentity rdf:resource="http://sbol-composite.com/RSE1"/>
+<sbol:displayId>RSE1</sbol:displayId>
+<sbol:version>1</sbol:version>
+<sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+<sbol:role rdf:resource="http://identifiers.org/so/SO:0001957"/>
+</sbol:ComponentDefinition>
+</rdf:RDF>
