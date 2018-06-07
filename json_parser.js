@@ -29,3 +29,19 @@ getStream();
 //modify your code so that it also prints how many parts were omitted
 //Expected: an array of length 4, and the number 2
 //['engineered-region', 'promoter', 'res', 'omitted'], "2 parts were omitted"
+
+//#4
+//modify your code so that instead of creating an array of strings
+//modify the json_obj itself so that the "type" of the last object in the FiveParts design
+//is replaced with the string "omitted"; print the whole json_obj
+//Expected:
+// ...
+// "name": "FiveParts",
+// "sequence": [...{
+//   "strand": "positive",
+//   "type": "omitted", 
+//   "id": "http://www.dummy.org/FiveParts/FiveParts_SequenceAnnotation4/1",
+//   "name": "Ter",
+//   "uri": "http://www.dummy.org/Ter/1",
+//   "tooltip": "Component\nIdentifier: Ter\nRole: terminator\nOrientation: inline\n"
+// }...
