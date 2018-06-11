@@ -1,46 +1,134 @@
 
 var fs = require('fs');
 
-var local_file = 'display_list.json';
-var max = 3;
-
-
+var local_file = 'another_test.json';
+var max = 4;
 
 
 var getStream = function (){
   var data = fs.readFileSync(local_file, {encoding: 'utf-8'});
   var json_obj = JSON.parse(data);
-  console.log(json_obj);
-  var components= json_obj.components;
-  components.forEach(function(component){
-    console.log(component);
-    var segments = component.segments;
-    segments.forEach(function(segment){
-      console.log(segment);
-      var sequence = segment.sequence;
-      var myArray = [];
-      var newArray;
-      sequence.forEach(function(sequence){
-        console.log(sequence);
-        var type = sequence["type"];
-        myArray.push(type);
-      });
-      omitted = max + 1;
-      var newArray = myArray.slice(0, omitted)
-      newArray[max] = "omitted"
-      //      console.log(newArray)
-      newArraylength = newArray.length;
-      //  console.log("An array of length: " , newArraylength)
-      omit = myArray.slice(max);
-      lengthomit = omit.length;
-      console.log(newArray, `${lengthomit} parts were omitted`)
-
-    });
-
-  });
+  exerciseOne(json_obj);
+  exerciseTwo(json_obj);
+  exerciseThree(json_obj);
+  exerciseFour(json_obj);
 }
 
+function exerciseOne(json_obj){
+  var components= json_obj.components;
+    components.forEach(function(component){
+  //  console.log(component);
+    var segments = component.segments;
+    segments.forEach(function(segment){
+    //  console.log(segment);
+      var sequence = segment.sequence;
+      if (sequence.length > max) {
+        var myArray = [];
+        var newArray;
+        sequence.forEach(function(seq){
+          //  console.log(sequence);
+            var type = seq["type"];
+            myArray.push(type);
+    });
+    console.log(myArray)
+    console.log("An array of length:", myArray.length)
+  };
+        });
 
+      });
+}
+//======================
+
+function exerciseTwo(json_obj){
+  var components= json_obj.components;
+    components.forEach(function(component){
+  //  console.log(component);
+    var segments = component.segments;
+    segments.forEach(function(segment){
+    //  console.log(segment);
+      var sequence = segment.sequence;
+      if (sequence.length > max) {
+       var seq =  sequence[max];
+        seq["type"] = "omitted";
+      //  console.log(seq)
+        var myArray = [];
+        var newArray;
+        sequence.forEach(function(seq){
+          //  console.log(sequence);
+            var type = seq["type"];
+            myArray.push(type);
+    });
+    console.log(myArray)
+   //    omitted = myArray[max + 1];
+   //    var newArray = myArray.slice(0, omitted)
+   //   newArray[max+1] == "omitted"
+   // console.log(newArray)
+};
+        });
+
+      });
+}
+//===========================================
+//
+function exerciseThree(json_obj){
+  var components= json_obj.components;
+    components.forEach(function(component){
+  //  console.log(component);
+    var segments = component.segments;
+    segments.forEach(function(segment){
+    //  console.log(segment);
+      var sequence = segment.sequence;
+      if (sequence.length > max) {
+       var seq =  sequence[max];
+        seq["type"] = "omitted";
+      //  console.log(seq)
+        var myArray = [];
+        var newArray;
+        sequence.forEach(function(seq){
+          //  console.log(sequence);
+            var type = seq["type"];
+            myArray.push(type);
+    });
+//console.log(myArray)
+     newArraylength = myArray.length;
+     console.log("An array of length: " , newArraylength)
+     omit = myArray.slice(max);
+     lengthomit = omit.length;
+     console.log(myArray, `${lengthomit} parts were omitted`)
+  };
+        });
+
+      });
+}
+
+for(var i = 0; i < 5; i++){
+  var component = components[i]
+}
+//==============================================================
+function exerciseFour(json_obj){
+  var components= json_obj.components;
+    components.forEach(function(component){
+  //  console.log(component);
+    var segments = component.segments;
+    segments.forEach(function(segment){
+    //  console.log(segment);
+      var sequence = segment.sequence;
+      if (sequence.length > max) {
+       var seq =  sequence[max];
+        seq["type"] = "omitted";
+        console.log(seq);
+    });
+
+     newArraylength = myArray.length;
+     console.log("An array of length: " , newArraylength)
+     omit = myArray.slice(max);
+     lengthomit = omit.length;
+     //console.log(myArray, `${lengthomit} parts were omitted`)
+  };
+        });
+
+      });
+}
 
 
 
@@ -73,7 +161,7 @@ getStream();
 // "name": "FiveParts",
 // "sequence": [...{
 //   "strand": "positive",
-//   "type": "omitted", 
+//   "type": "omitted",
 //   "id": "http://www.dummy.org/FiveParts/FiveParts_SequenceAnnotation4/1",
 //   "name": "Ter",
 //   "uri": "http://www.dummy.org/Ter/1",
